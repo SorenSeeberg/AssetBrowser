@@ -42,18 +42,18 @@ class AssetTexture(Table):
     textureId = Column(DataTypes.integer, fk=(Texture, 'id'), default=1)
 
 
-""" ASSET - MODEL 3D """
+""" ASSET - MESH """
 
 
-class Model3d(Table):
+class Mesh(Table):
     id = Column(DataTypes.integer, pk=True)
     assetId = Column(DataTypes.integer, fk=(AssetType, 'id'), default=1)
 
 
-class AssetModel3d(Table):
+class AssetsMesh(Table):
     id = Column(DataTypes.integer, pk=True)
     assetId = Column(DataTypes.integer, fk=(Asset, 'id'), default=1)
-    model3dId = Column(DataTypes.integer, fk=(Model3d, 'id'), default=1)
+    model3dId = Column(DataTypes.integer, fk=(Mesh, 'id'), default=1)
 
 
 """ TAGS """
@@ -75,6 +75,7 @@ class Tag(Table):
 
 
 class AssetTag(Table):
+    """Junction Table: Asset & Yag"""
 
     id = Column(DataTypes.integer, pk=True)
     assetId = Column(DataTypes.integer, fk=(Asset, 'id'))
@@ -90,8 +91,8 @@ if __name__ == '__main__':
     db.create_table(Texture)
     db.create_table(AssetTexture)
 
-    db.create_table(Model3d)
-    db.create_table(AssetModel3d)
+    db.create_table(Mesh)
+    db.create_table(AssetsMesh)
 
     db.create_table(TagGroup)
 
