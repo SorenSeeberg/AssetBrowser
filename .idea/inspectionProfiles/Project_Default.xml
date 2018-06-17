@@ -4,9 +4,59 @@
     <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredPackages">
         <value>
-          <list size="2">
+          <list size="52">
             <item index="0" class="java.lang.String" itemvalue="sphinx" />
-            <item index="1" class="java.lang.String" itemvalue="PIL" />
+            <item index="1" class="java.lang.String" itemvalue="win32gui" />
+            <item index="2" class="java.lang.String" itemvalue="pillow" />
+            <item index="3" class="java.lang.String" itemvalue="aiohttp" />
+            <item index="4" class="java.lang.String" itemvalue="pypiwin32" />
+            <item index="5" class="java.lang.String" itemvalue="pyqt5" />
+            <item index="6" class="java.lang.String" itemvalue="pyautogui" />
+            <item index="7" class="java.lang.String" itemvalue="requests" />
+            <item index="8" class="java.lang.String" itemvalue="websockets" />
+            <item index="9" class="java.lang.String" itemvalue="pywinauto" />
+            <item index="10" class="java.lang.String" itemvalue="pyinstaller" />
+            <item index="11" class="java.lang.String" itemvalue="junitxml" />
+            <item index="12" class="java.lang.String" itemvalue="unittest2" />
+            <item index="13" class="java.lang.String" itemvalue="macholib" />
+            <item index="14" class="java.lang.String" itemvalue="archive" />
+            <item index="15" class="java.lang.String" itemvalue="lib" />
+            <item index="16" class="java.lang.String" itemvalue="setup" />
+            <item index="17" class="java.lang.String" itemvalue="PySide" />
+            <item index="18" class="java.lang.String" itemvalue="Crypt" />
+            <item index="19" class="java.lang.String" itemvalue="certifi" />
+            <item index="20" class="java.lang.String" itemvalue="simplejson" />
+            <item index="21" class="java.lang.String" itemvalue="process" />
+            <item index="22" class="java.lang.String" itemvalue="Crypto" />
+            <item index="23" class="java.lang.String" itemvalue="interface" />
+            <item index="24" class="java.lang.String" itemvalue="urls" />
+            <item index="25" class="java.lang.String" itemvalue="django" />
+            <item index="26" class="java.lang.String" itemvalue="altgraph" />
+            <item index="27" class="java.lang.String" itemvalue="pygments" />
+            <item index="28" class="java.lang.String" itemvalue="wheel" />
+            <item index="29" class="java.lang.String" itemvalue="pip" />
+            <item index="30" class="java.lang.String" itemvalue="nt" />
+            <item index="31" class="java.lang.String" itemvalue="sendkeys" />
+            <item index="32" class="java.lang.String" itemvalue="netifaces" />
+            <item index="33" class="java.lang.String" itemvalue="servicemanager" />
+            <item index="34" class="java.lang.String" itemvalue="PIL" />
+            <item index="35" class="java.lang.String" itemvalue="urllib3" />
+            <item index="36" class="java.lang.String" itemvalue="babel" />
+            <item index="37" class="java.lang.String" itemvalue="PyQt4" />
+            <item index="38" class="java.lang.String" itemvalue="docutils" />
+            <item index="39" class="java.lang.String" itemvalue="nose" />
+            <item index="40" class="java.lang.String" itemvalue="ctypeslib" />
+            <item index="41" class="java.lang.String" itemvalue="Image" />
+            <item index="42" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="43" class="java.lang.String" itemvalue="numpy" />
+            <item index="44" class="java.lang.String" itemvalue="pygame" />
+            <item index="45" class="java.lang.String" itemvalue="pyodbc" />
+            <item index="46" class="java.lang.String" itemvalue="pyttsx" />
+            <item index="47" class="java.lang.String" itemvalue="sqlalchemy" />
+            <item index="48" class="java.lang.String" itemvalue="wx" />
+            <item index="49" class="java.lang.String" itemvalue="Options" />
+            <item index="50" class="java.lang.String" itemvalue="Utils" />
+            <item index="51" class="java.lang.String" itemvalue="cx_freeze" />
           </list>
         </value>
       </option>

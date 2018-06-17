@@ -1,0 +1,9 @@
+.idea/*
+__pycache__/*
+*/__pycache__/*
+server/table_test.db
+build/*
+dist/*
+=======
+.idea/
+

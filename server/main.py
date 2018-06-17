@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return f'Asset Browser API v. {VERSION}'
+    return f'Asset Browser REST API v. {VERSION}'
 
 
 @app.route("/action", methods=["POST"])
